@@ -1,0 +1,23 @@
+# Ignorar todo el entorno virtual
+p1_1/
+
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de datos temporales
+*.log
+*.tmp
+*.bak
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db

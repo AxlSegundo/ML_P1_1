@@ -33,5 +33,5 @@ with open('P1_1/Practica/estudiantes.csv', 'w') as file:
     file.write(csv_data)
 
 # Leer el archivo CSV y mostrar las primeras 5 filas
-df_csv = pd.read_csv('estudiantes.csv')
+df_csv = pd.read_csv('P1_1/Practica/estudiantes.csv')
 print("\nPrimeras 5 filas del DataFrame leído desde CSV:\n", df_csv.head())
